@@ -36,7 +36,7 @@ module ToDo = {
           dispatch(Add_task);
         }}>
         <input
-          placeholder="What do you need to do?"
+          placeholder="Testing What do you need to do?"
           value=Model.State.(
             switch (state.input) {
             | None => ""
